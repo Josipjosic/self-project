@@ -1,7 +1,8 @@
-.container {
+.container-main {
     overflow: hidden;
     padding: 0;
 }
+
 .col-4 h3 {
     color: #134880;
     font-family: 'SourceSansPro';
@@ -12,5 +13,92 @@
     color: #484A4C;
     font-family: 'SourceSansPro';
     font-size: 18px;
-
+}
+.col-8 {
+    padding: 0
+}
+.col-5 button{
+    position: relative;
+    padding: 17px 22px 22px 22px;   
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 34px;
+}
+.col-5 button img {
+    text-align: center;
+}
+.col-5 {
+    margin-top: -23%;
+    margin-right: 3%;
+}
+.btn-1 {
+    border-radius: 5px;
+    border: 1px solid  #DDDDDD ;
+    background: url('./images/arrow-gray-left.png') no-repeat ;
+    background-position: center;
+}
+.btn-1:focus, .btn-1:hover, .btn-1:active{
+    border-color: #134880;
+    background: url('./images/arrow-blue-left.png') no-repeat ;
+    background-position: center;
+}
+.btn-2 {
+    border-radius: 5px;
+    border: 1px solid  #DDDDDD ;
+    background: url('./images/arrow-gray-right.png') no-repeat ;
+    background-position: center;
+}
+.btn-2:focus, .btn-2:hover, .btn-2:active{
+    border-color: #134880;
+    background: url('./images/arrow-blue-right.png') no-repeat ;
+    background-position: center;
+}
+.header-main {
+    display: inline-flex;
+}
+.header {
+    width: 621px;
+    height: 100px;
+    background: #DDDDDD;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.header-small {
+    width: 301px;
+    height: 100px;
+    background: #DDDDDD;
+    position: relative;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 60px;
+    margin-right: 19px;
+}
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding-top: 40px;
+}
+.footer {
+    width: 940px;
+    height: 100px;
+    background: #DDDDDD;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 60px;
+}
+.footer h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 15px;
+    padding-top: 40px;
 }
